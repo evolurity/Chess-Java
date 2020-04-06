@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="595.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.chesstask.Controller">
+   <children>
+      <Button layoutX="674.0" layoutY="33.0" mnemonicParsing="false" onAction="#save" text="Save" />
+      <Button layoutX="616.0" layoutY="33.0" mnemonicParsing="false" onAction="#load" text="Load" />
+   </children>
+</Pane>
